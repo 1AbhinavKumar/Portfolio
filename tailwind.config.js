@@ -5,6 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    // this is how we use the extra font by giving the signature name as variable to call. font-signature 
     fontFamily : {
       signature : ["Great Vibes"],
     }
