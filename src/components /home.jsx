@@ -1,26 +1,27 @@
 import React from 'react'
 import My_Image from "../assets/my_image.png"
 import { FiArrowRightCircle } from "react-icons/fi";
+import { Link } from 'react-scroll';
 
 const home = () => {
     return (
-        <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
+        <div name="home" className='md:h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
 
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row max-md:pt-80 max-sm:pt-40'>
                 <div className='flex flex-col justify-center h-full'>
                     <h2 className='text-4xl sm:text-7xl font-bold text-white '>I am a Full Stack Developer</h2>
                     
                     <p className='text-gray-500 py-4 max-w-md'>
-                        Hey, I am Abhinav Kumar , Pre- Final Year Student pursuing Bachelor’s of Technology in Mehcanical Engineering from IIITDM Jabalpur and my current CPI is 8.5
+                    Hey, I am Abhinav Kumar , Pre- Final Year Student pursuing Bachelor’s of Technology in Mehcanical Engineering from IIITDM Jabalpur.
                     </p>
 
                     <div>
-                        <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-mb bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                        <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-mb bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                             Portfolio
                             <span className='group-hover:rotate-90 duration-300'>
                                 <FiArrowRightCircle size={25} className='ml-2'/>
                             </span>
-                        </button>
+                        </Link>
                     </div>
                 </div>
                 <div>

@@ -12,7 +12,7 @@ const sociallinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/abhinav-kumar-1b9a3123b/",
       style: "rounded-tr-md", // tr means top right rounded medium
     },
     {
@@ -22,7 +22,7 @@ const sociallinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com",
+      href: "https://github.com/1AbhinavKumar",
     },
     {
       id: 3,
