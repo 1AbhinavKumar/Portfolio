@@ -12,14 +12,15 @@ const about = () => {
             </div>
 
             <p className=' text-xl mt-20'>
-            Hey, I'm Abhinav Kumar, a passionate Full Stack Developer with expertise in creating dynamic and responsive web applications. My tech stack includes HTML, CSS, and JavaScript for building seamless user interfaces, while Node.js and Express handle the server-side logic. I specialize in crafting interactive front-end experiences with React and ensure robust back-end functionality.
+            Hi, I am Abhinav Kumar, a passionate problem solver and an enthusiastic developer with a keen interest in Data Structures and Algorithms (DSA). Over the time, I have honed my skills by solving more than 700 questions on various problem-solving platforms, including LeetCode where I have solved 550+ problems and have a rating of 1700+, and CodeChef, where I hold a 3-star rating.
             </p>
             <br/>
             <p className=' text-xl mb-10'>
-            As a seasoned developer, I leverage the power of Python for additional versatility, contributing to a well-rounded skill set. My design approach is enhanced by the use of Tailwind CSS, bringing efficiency and aesthetic appeal to my projects.
+            As a MERN stack developer, I have a solid foundation in building full-stack web applications using MongoDB, Express.js, React, and Node.js. My technical expertise extends beyond web development to encompass fundamental computer science concepts such as Computer Networking and Operating Systems.
             </p>
             <p className='text-xl'>
-            Whether it's shaping the client-side with React or managing server-side operations with Node.js, I thrive on transforming ideas into scalable and efficient web solutions. Let's build something amazing together!
+            I am proficient in multiple programming languages, with strong capabilities in C++ and Python. 
+            I am always eager to learn and take on new challenges, continually striving to improve my knowledge and contribute to impactful projects.
             </p>
         </div>
     </div>
