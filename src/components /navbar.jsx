@@ -17,7 +17,7 @@ const Navbar = () => {
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "projects",
     },
     {
       id: 4,
@@ -78,6 +78,11 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
+          <div className=" flex">
+            <li className="mx-2 text-xl" ><a href="https://drive.google.com/file/d/1830fwLcnCa1y2l9s35smZtbWsq6k-k72/view?usp=sharing"  target="_blank" rel="noreferrer">Resume</a></li>
+            <li className="mx-2 text-xl"><a href="https://www.linkedin.com/in/abhinav-kumar-1b9a3123b/" target="_blank" rel="noreferrer">Linkedin</a></li>
+            <li className="mx-2 text-xl"><a href="https://github.com/1AbhinavKumar" target="_blank" rel="noreferrer"> Github</a></li>
+          </div>
         </ul>
       )}
     </div>
