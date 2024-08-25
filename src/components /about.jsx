@@ -12,7 +12,7 @@ const about = () => {
             </div>
 
             <p className=' text-xl mt-20'>
-            Hi, I am Abhinav Kumar, a passionate problem solver and an enthusiastic developer with a keen interest in Data Structures and Algorithms (DSA). Over the time, I have honed my skills by solving more than 700 questions on various problem-solving platforms, including LeetCode where I have solved 550+ problems and have a rating of 1700+, and CodeChef, where I hold a 3-star rating.
+            Hi, I am Abhinav Kumar, a passionate problem solver and an enthusiastic developer with a keen interest in Data Structures and Algorithms (DSA). Over the time, I have honed my skills by solving more than 900 questions on various problem-solving platforms and given over 100 contests , including LeetCode where I have solved 550+ problems and have a rating of 1800+, and CodeChef, where I hold a 3-star rating 1715+.
             </p>
             <br/>
             <p className=' text-xl mb-10'>

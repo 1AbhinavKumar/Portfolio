@@ -2,9 +2,10 @@ import React from "react";
 import news_Website from "../assets/news_Website.png";
 import blog_website from "../assets/blog_Website.png";
 import todo from "../assets/todo.png";
-import port_image from "../assets/portfolio_image.png";
-import calc from "../assets/calc.png";
 import cant from "../assets/cant.png";
+import lc_id from "../assets/lc_id.png"
+import cc_id from "../assets/cc_id.png"
+import livelync from "../assets/livelync.png"
 
 const Projects = () => {
   const portfolios = [
@@ -13,21 +14,28 @@ const Projects = () => {
       src: blog_website,
       demoLink: "https://github.com/1AbhinavKumar/Blog_App-",
       codeLink: "https://github.com/1AbhinavKumar/Blog_App-",
-      about: "Full stack Blog website",
+      about: "Tech Trends ",
+    },
+    {
+      id: 7,
+      src: livelync,
+      demoLink: "https://github.com/1AbhinavKumar/Live-Lync",
+      codeLink: "https://github.com/1AbhinavKumar/Live-Lync",
+      about: "Live Lync",
     },
     {
       id: 2,
       src: news_Website,
       demoLink: "https://github.com/1AbhinavKumar/CRR-News",
       codeLink: "https://github.com/1AbhinavKumar/CRR-News",
-      about: "News website",
+      about: "CRR News",
     },
     {
       id: 3,
       src: todo,
       demoLink: "https://to-do-b16f.vercel.app/",
       codeLink: "https://github.com/1AbhinavKumar/TO-DO",
-      about: "TO DO ",
+      about: "Action Agenda",
     },
     {
       id: 4,
@@ -36,20 +44,21 @@ const Projects = () => {
       codeLink: "https://github.com/1AbhinavKumar/Harsh-Canteen-site",
       about: "Canteen Website",
     },
-    // {
-    //   id: 5,
-    //   src: calc,
-    //   demoLink: "https://github.com/1AbhinavKumar/Calculator-",
-    //   codeLink: "https://github.com/1AbhinavKumar/Calculator-",
-    //   about: "Calculator ",
-    // },
-    // {
-    //   id: 6,
-    //   src: port_image,
-    //   demoLink: "https://portfolio-green-xi-11.vercel.app/",
-    //   codeLink: "https://github.com/1AbhinavKumar/Portfolio",
-    //   about: "Portfolio",
-    // },
+    {
+      id: 5,
+      src: lc_id,
+      demoLink: "https://leetcode.com/u/_Abhi___/",
+      codeLink: "https://leetcode.com/u/_Abhi___/",
+      about: "Leetcode Profile",
+    },
+    {
+      id: 6,
+      src: cc_id,
+      demoLink: "https://www.codechef.com/users/abhi_110502",
+      codeLink: "https://www.codechef.com/users/abhi_110502",
+      about: "Codechef Profile",
+    },
+
   ];
 
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import My_Image from "../assets/my_image.png"
+import My_Image from "../assets/my_image.jpeg"
 import { FiArrowRightCircle } from "react-icons/fi";
 import { Link } from 'react-scroll';
 
@@ -12,7 +12,7 @@ const home = () => {
                     <h2 className='text-4xl sm:text-7xl font-bold text-white '>I am a Full Stack Developer</h2>
                     
                     <p className='text-gray-500 py-4 max-w-md'>
-                    Hey, I am Abhinav Kumar , Pre- Final Year Student pursuing Bachelor’s of Technology in Mehcanical Engineering from IIITDM Jabalpur.
+                    Hey, I am Abhinav Kumar ,Final Year Student pursuing Bachelor’s of Technology from IIITDM Jabalpur.
                     </p>
 
                     <div>
